@@ -6,33 +6,31 @@ This repository contains a Google Colab Notebook implementation for detecting ra
 
 Ransomware is a type of malicious software (malware) that blocks access to a computer system or encrypts files, and then demands a ransom payment from the victim to restore access.
 
-🔑 Key Characteristics:
+🔑 Key Characteristics
 
-Encryption of files: Ransomware often encrypts important files, making them inaccessible.
+🗂️ Encryption of files: Makes important files inaccessible.
 
-Ransom demand: Attackers demand payment (often in cryptocurrency) to provide the decryption key.
+💰 Ransom demand: Attackers demand payment (often in cryptocurrency).
 
-Spread mechanisms: It can spread via malicious email attachments, infected downloads, or network vulnerabilities.
+📩 Spread mechanisms: Email attachments, infected downloads, or network vulnerabilities.
 
-High impact: Targets individuals, organizations, and even critical infrastructure, leading to financial losses and downtime.
+🚨 High impact: Leads to financial losses and downtime for individuals or organizations.
 
-⚠️ Real-World Examples:
+⚠️ Real-World Examples
 
-WannaCry (2017): Spread rapidly worldwide, affecting hospitals, companies, and governments.
+WannaCry (2017): Spread worldwide, affecting hospitals, companies, and governments.
 
-NotPetya (2017): Caused billions in damages, targeting multinational corporations.
+NotPetya (2017): Caused billions in damages, hitting multinational corporations.
 
-Ryuk: Known for targeting enterprises and demanding large ransoms.
+Ryuk: Targeted enterprises with high ransom demands.
 
 🛡️ Why Detection is Important
 
-Ransomware attacks are increasing in both frequency and sophistication. Early detection can:
+Prevents file encryption before it spreads.
 
-Prevent encryption of sensitive files.
+Protects organizations from financial and reputational damage.
 
-Protect organizations from financial losses.
-
-Enhance cybersecurity resilience.
+Improves cybersecurity resilience.
 
 📂 Project Structure
 .
@@ -41,39 +39,35 @@ Enhance cybersecurity resilience.
 
 🚀 Features
 
-Preprocessing and cleaning of ransomware dataset
-
-Feature engineering for behavioral detection
-
-Multiple Machine Learning models training & evaluation
-
-Performance metrics (Accuracy, Precision, Recall, F1-score)
-
-Graphical visualizations
+✔️ Data preprocessing and cleaning
+✔️ Feature engineering for ransomware detection
+✔️ Machine Learning model training & evaluation
+✔️ Performance metrics (Accuracy, Precision, Recall, F1-score)
+✔️ Visualizations for results interpretation
 
 ▶️ Run on Google Colab
 
-You don’t need to set up anything locally. Just click the button below to open the notebook in Google Colab:
+Easily run this notebook without setup. Click below 👇
 
 🛠️ Requirements
 
-If you still wish to run locally, install:
+If you want to run locally, install the following:
 
 pip install pandas numpy scikit-learn matplotlib seaborn
 
 📊 Dataset
 
-The notebook requires a dataset containing both ransomware and benign activity.
+Requires a dataset with both ransomware and benign activity.
 
-You can upload your dataset directly into Colab or mount it from Google Drive.
+You can upload data directly into Colab or mount it from Google Drive.
 
 📈 Results
 
-Compares multiple ML models (such as Random Forest, SVM, Logistic Regression).
+Comparison of ML models (Random Forest, SVM, Logistic Regression, etc.)
 
-Uses confusion matrix and classification reports for performance analysis.
+Performance evaluated using confusion matrix and classification reports
 
-Visualizations for interpretability.
+Clear graphical visualizations
 
 🔒 Disclaimer
 
@@ -82,4 +76,10 @@ It must not be used for malicious activities.
 
 🤝 Contribution
 
-Contributions are welcome! Feel free to fork, open issues, or submit pull requests.
+Contributions are welcome!
+
+Fork the repo
+
+Open an issue
+
+Submit a pull request
