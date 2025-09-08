@@ -14,7 +14,7 @@ Ransomware is a type of malicious software (malware) that blocks access to a com
 
 📩 Spread mechanisms: Email attachments, infected downloads, or network vulnerabilities.
 
-🚨 High impact: Leads to financial losses and downtime for individuals or organizations.
+🚨 High impact: Leads to financial losses and downtime.
 
 ⚠️ Real-World Examples
 
@@ -47,11 +47,11 @@ Improves cybersecurity resilience.
 
 ▶️ Run on Google Colab
 
-Easily run this notebook without setup. Click below 👇
+Run this notebook without setup. Click below 👇
 
 🛠️ Requirements
 
-If you want to run locally, install the following:
+To run locally, install:
 
 pip install pandas numpy scikit-learn matplotlib seaborn
 
@@ -65,9 +65,9 @@ You can upload data directly into Colab or mount it from Google Drive.
 
 Comparison of ML models (Random Forest, SVM, Logistic Regression, etc.)
 
-Performance evaluated using confusion matrix and classification reports
+Evaluation with confusion matrix and classification reports
 
-Clear graphical visualizations
+Visualizations for better understanding
 
 🔒 Disclaimer
 
@@ -76,7 +76,7 @@ It must not be used for malicious activities.
 
 🤝 Contribution
 
-Contributions are welcome!
+💡 Contributions are welcome!
 
 Fork the repo
 
